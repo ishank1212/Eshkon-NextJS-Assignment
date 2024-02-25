@@ -17,7 +17,7 @@ const Header: FunctionComponent = () => {
         </Link>
 
         <h3 className={styles.brand__name}>
-          ImpactBlogs- Share your passion with the world
+          Eshkon Blogs- Share your passion with the world
         </h3>
       </div>
       <div><ToggleButton></ToggleButton></div>

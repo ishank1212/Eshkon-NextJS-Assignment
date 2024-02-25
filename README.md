@@ -40,7 +40,7 @@ CONTENTFUL_TOKEN=<your contentful token>
 - Next.Js with Typescript support out of the box
 - Static Export out of the box
 - Contentful Integration with scripts to automatically populate CMS
-- Easy integration and Deployment over Vercel (formerly ZEIT)
+- Easy integration and Deployment over Vercel
 - Custom components
 - SEO friendly, with dynamic meta tags
 - Optimized for speed and scalability

@@ -1,21 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/12ca189b-a0ff-4947-9749-a52bb521006f/deploy-status)](https://app.netlify.com/sites/nextjs-static-starter-kit/deploys)
-
-<p align="left">
-  <a href="https://techhive.io/" target="blank"><img src="https://www.techhive.io/static/brand/logo-masterclass.svg" width="250" alt="Nest Logo" /></a>
-</p>
-
-# Next JS Static starter-kit
-
-by [@techhive.IO](https://www.techhive.io/)
-
-## Live shot
-
-![Live Shot](https://i.imgur.com/hXFQYRp.png)
-
 ## Table of Content
 
-- [Live Demo](https://nextjs-static-starter-kit.netlify.com/)
-- [Getting Started](#setting-started)
 - [Useful Commands](#useful-commands)
 - [Goals](#goals)
 - [Features](#features)
@@ -23,7 +7,7 @@ by [@techhive.IO](https://www.techhive.io/)
 ## Getting Started
 
 ```bash
-git clone --depth 1 https://github.com/techhiveIO/nextjs-blog-starter-kit my-project
+git clone --depth 1 https://github.com/ishank1212/Eshkon-NextJS-Assignment.git
 cd my-project
 rm -r .git
 cp .env.example .env
@@ -56,7 +40,7 @@ CONTENTFUL_TOKEN=<your contentful token>
 - Next.Js with Typescript support out of the box
 - Static Export out of the box
 - Contentful Integration with scripts to automatically populate CMS
-- Easy integration and Deployment over Vercel (formerly ZEIT)
+- Easy integration and Deployment over Vercel
 - Custom components
 - SEO friendly, with dynamic meta tags
 - Optimized for speed and scalability

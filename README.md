@@ -1,7 +1,5 @@
 ## Table of Content
 
-- [Live Demo](https://nextjs-static-starter-kit.netlify.com/)
-- [Getting Started](#setting-started)
 - [Useful Commands](#useful-commands)
 - [Goals](#goals)
 - [Features](#features)

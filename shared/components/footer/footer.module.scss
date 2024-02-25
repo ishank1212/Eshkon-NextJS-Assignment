@@ -1,0 +1,28 @@
+.footer {
+  padding: 1rem;
+
+  border-top: 1px solid #e5e5e5;
+}
+
+
+.link {
+  color: #27add5;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #27add5;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 1rem 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    padding: 1rem 5.5rem;
+  }
+}

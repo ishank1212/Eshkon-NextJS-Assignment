@@ -7,7 +7,7 @@
 ## Getting Started
 
 ```bash
-git clone --depth 1 https://github.com/techhiveIO/nextjs-blog-starter-kit my-project
+git clone --depth 1 https://github.com/ishank1212/Eshkon-NextJS-Assignment.git
 cd my-project
 rm -r .git
 cp .env.example .env

@@ -65,5 +65,5 @@ CONTENTFUL_TOKEN=<your contentful token>
 
 - [Next.Js (V9+)](https://github.com/zeit/next.js)
 - Typescript
-- [Vercel]
+- [Vercel](https://www.vercel.com)
 - [Contentful](https://www.contentful.com)

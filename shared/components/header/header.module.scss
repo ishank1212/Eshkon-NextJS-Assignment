@@ -5,12 +5,15 @@
 
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
+  margin-left: 10px;
+  padding: 10px 20px;
 }
 
 .brand {
   display: flex;
 
   cursor: pointer;
+  margin-right: 30%;
 }
 
 .brand__logo {
@@ -26,6 +29,11 @@
   color: #16498a;
   font-weight: normal;
   letter-spacing: 2px;
+}
+
+.toggle-button-container {
+  margin-right: 10px; /* Adjust the gap from the right edge */
+  margin-top: 10px; /* Adjust the gap from the top edge */
 }
 
 @media (min-width: 991px) {

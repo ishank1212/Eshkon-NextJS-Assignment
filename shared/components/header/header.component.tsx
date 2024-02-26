@@ -20,7 +20,7 @@ const Header: FunctionComponent = () => {
           Eshkon Blogs- Share your passion with the world
         </h3>
       </div>
-      <div>
+      <div  className={styles['toggle-button-container']}>
         <ToggleButton></ToggleButton>
       </div>
     </div>

@@ -20,7 +20,9 @@ const Header: FunctionComponent = () => {
           Eshkon Blogs- Share your passion with the world
         </h3>
       </div>
-      <div><ToggleButton></ToggleButton></div>
+      <div>
+        <ToggleButton></ToggleButton>
+      </div>
     </div>
   );
 };

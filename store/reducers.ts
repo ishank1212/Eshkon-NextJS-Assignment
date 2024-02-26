@@ -5,7 +5,7 @@ export interface AppState {
 }
 
 const initialState: AppState = {
-  theme: 'light',
+  theme: 'light'
 };
 
 const appReducer = (state = initialState, action: any): AppState => {
@@ -13,7 +13,7 @@ const appReducer = (state = initialState, action: any): AppState => {
     case TOGGLE_THEME:
       return {
         ...state,
-        theme: state.theme === 'light' ? 'dark' : 'light',
+        theme: state.theme === 'light' ? 'dark' : 'light'
       };
     default:
       return state;

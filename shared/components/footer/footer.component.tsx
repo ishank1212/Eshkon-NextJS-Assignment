@@ -9,7 +9,7 @@ const Footer: FunctionComponent = () => {
   return (
     <footer className={styles.footer}>
       <span>
-        <h3>Developed by: Ishank</h3>        
+        <h3>Developed by: Ishank</h3>
       </span>
     </footer>
   );

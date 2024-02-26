@@ -33,7 +33,8 @@ const Card: FunctionComponent<Props> = ({ info }) => {
         <Link
           href={getHref()}
           as={getNavigationLink(info.slug)}
-          className={styles.card__action}>
+          className={styles.card__action}
+        >
           Explore
         </Link>
       </div>

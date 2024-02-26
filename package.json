@@ -4,24 +4,20 @@
   "description": "NextJS Boilerplate with static export",
   "main": "server.js",
   "scripts": {
+    "postexport": "node utils/post-export.js",
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "export": "next build",
-    "postexport": "node utils/post-export.js",
+    "format:test": "prettier \"**/*.{tsx,js,json,md,css}\" --list-different",
     "type-check": "tsc",
     "format:write": "prettier \"**/*.{tsx,js,json,md,css}\" --write",
-    "format:test": "prettier \"**/*.{tsx,js,json,md,css}\" --list-different",
-    "lint": "eslint --fix . && echo 'Lint complete.'",
     "release": "standard-version && git push --follow-tags origin master",
-    "populate:contentful": "contentful space migration --space-id gcor3uep86n7 utils/contentful.js --yes",
     "contributors:add": "all-contributors add",
+    "populate:contentful": "contentful space migration --space-id gcor3uep86n7 utils/contentful.js --yes",
     "contributors:generate": "all-contributors generate",
+    "lint": "eslint --fix . && echo 'Lint complete.'",
     "contributors:check": "all-contributors check"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/techhiveIO/nextjs-static-boilerplate.git"
   },
   "keywords": [
     "nextjs",
@@ -33,15 +29,11 @@
     "netlify",
     "typescript"
   ],
-  "author": {
-    "name": "Abdul Rahman Zantout",
-    "email": "abed.zantout94@gmail.com"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ishank1212/Eshkon-NextJS-Assignment.git"
   },
-  "license": "CHECK LICENSE UNDER LICENSE.md",
-  "bugs": {
-    "url": "https://github.com/abedzantout/nextjs-static-boilerplate/issues"
-  },
-  "homepage": "https://github.com/abedzantout/nextjs-static-boilerplate#readme",
+  
   "pre-commit": "pretty-quick --staged",
   "dependencies": {
     "@types/react-redux": "^7.1.33",

@@ -55,6 +55,8 @@ CONTENTFUL_TOKEN=<your contentful token>
 
 
 ## Contentful Images
+![Screenshot (330)](https://github.com/ishank1212/Eshkon-NextJS-Assignment/assets/73271919/45827b42-b4d5-42fc-8f85-17cf8b62a4b0)
+![Screenshot (329)](https://github.com/ishank1212/Eshkon-NextJS-Assignment/assets/73271919/ac2b5f5e-b322-4c56-be02-e420814314ad)
 ![Screenshot (328)](https://github.com/ishank1212/Eshkon-NextJS-Assignment/assets/73271919/a646d4d2-068b-472d-b789-cf5fd976af44)
 ![Screenshot (323)](https://github.com/ishank1212/Eshkon-NextJS-Assignment/assets/73271919/a83e0a49-83f0-4e01-b848-4bfaee92b24a)
 ![Screenshot (324)](https://github.com/ishank1212/Eshkon-NextJS-Assignment/assets/73271919/86077274-205b-47fb-ba08-b84ae95162db)

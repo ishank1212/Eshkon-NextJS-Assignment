@@ -40,6 +40,7 @@ CONTENTFUL_TOKEN=<your contentful token>
 - Next.Js with Typescript support out of the box
 - Static Export out of the box
 - Contentful Integration with scripts to automatically populate CMS
+- Theme Toggle Button (light/dark)
 - Easy integration and Deployment over Vercel
 - Custom components
 - SEO friendly, with dynamic meta tags

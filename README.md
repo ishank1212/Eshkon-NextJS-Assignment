@@ -1,3 +1,6 @@
+## Live Deployment (Vercel)
+https://eshkon-next-js-assignment-lom4.vercel.app/?page=1&tag=
+
 ## Setting up Next.Js
 
 npm install -g create-next-app

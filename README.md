@@ -1,3 +1,13 @@
+## User Experience
+To build a blog that appeals to your users, we need to define the user experience.
+
+We define our requirements first. The blog has the following primary purposes:
+
+A user can see all the blog posts,
+A user can navigate a large number of blog posts using pagination,
+A user can filter by a topic that he is interested in,
+A user should be able to read a blog post
+
 ## Table of Content
 
 - [Useful Commands](#useful-commands)

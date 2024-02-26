@@ -64,6 +64,20 @@ const IndexPage: NextPage<Props, IndexPageContext> = (props: Props) => {
           <h1 className="blogposts__header">Latest posts</h1>
           <div className="cards-deck">{cards(entries)}</div>
         </div>
+        <div className="sidenav">
+          <TagFilters
+            tags={tags}
+            updatePage={handleTagChosen}
+            selectedTagId={tag}
+          />
+        </div>
+        <div className="pagination">
+          <Paginator
+            handlePaginationChange={(event) => updatePage(event)}
+            range={range}
+            skip={page}
+          />
+        </div>
       </div>
     </Layout>
   );

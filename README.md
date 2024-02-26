@@ -1,3 +1,13 @@
+## Setting up Next.Js
+npm install -g create-next-app
+create-next-app Eshkon-NextJS-Assignment && cd Eshkon-NextJS-Assignment
+
+## Integrating Typescript
+npm install --save-dev typescript @types/react @types/node
+
+## CSS plugin for styling
+npm install --save @zeit/next-css
+
 ## User Experience
 To build a blog that appeals to your users, we need to define the user experience.
 
@@ -7,6 +17,16 @@ A user can see all the blog posts,
 A user can navigate a large number of blog posts using pagination,
 A user can filter by a topic that he is interested in,
 A user should be able to read a blog post
+
+## Application Architecture
+- core // contains everything related to fetching the data from our CMS and is shared across the entire application
+- shared // contains common components, helper functions
+- public // static folder where we can store assets to be directly compiled by Next, this is mainly used to inject the robot.txt file
+- assets // contain website specific assets such as images
+- interfaces// contain different models
+- pages // contains the pages
+
+
 
 ## Table of Content
 

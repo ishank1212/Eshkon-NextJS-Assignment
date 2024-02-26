@@ -31,6 +31,24 @@ A user should be able to read a blog post
 create models in the utils folder for better structure
 run cmd: npm run populate:contentful   to populate cms with all the content models defined
 
+## Layout Component 
+The layout component serves as a container across all pages of the application.
+![Screenshot (331)](https://github.com/ishank1212/Eshkon-NextJS-Assignment/assets/73271919/994f027f-0e2e-438d-8460-882e87aa52eb)
+
+
+## Card
+The card in our case displays the hero image of the blog, the title, description and the call to action. The call to action redirects the user to the blog post.
+
+Added some functions that help us to pass the dynamic URLs automatically.
+
+Under the core folder, create a folder called helper, and include a helper.ts file:
+![Screenshot (332)](https://github.com/ishank1212/Eshkon-NextJS-Assignment/assets/73271919/f06339e1-d26e-4cc7-a011-a086185160ff)
+
+
+Next, under the shared/components folder, create a card folder and an index.tsx
+![Screenshot (333)](https://github.com/ishank1212/Eshkon-NextJS-Assignment/assets/73271919/235c5890-755a-45ae-89ec-9ea584172397)
+
+
 ## Table of Content
 
 - [Useful Commands](#useful-commands)

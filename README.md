@@ -27,6 +27,9 @@ A user should be able to read a blog post
 - pages // contains the pages
 
 
+## Content Models
+create models in the utils folder for better structure
+run cmd: npm run populate:contentful   to populate cms with all the content models defined
 
 ## Table of Content
 

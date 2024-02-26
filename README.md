@@ -23,7 +23,7 @@ A user should be able to read a blog post
 - shared // contains common components, helper functions
 - public // static folder where we can store assets to be directly compiled by Next, this is mainly used to inject the robot.txt file
 - assets // contain website specific assets such as images
-- interfaces// contain different models
+- store// contain redux store, action, reducers
 - pages // contains the pages
 
 

@@ -11,9 +11,6 @@
 // };
 
 // export default NotFoundPage;
-
-
-// pages/404.tsx
 import React, { useEffect, useState } from 'react';
 
 const NotFoundPage: React.FC = () => {
@@ -28,8 +25,8 @@ const NotFoundPage: React.FC = () => {
       const response = await fetch('https://api.memegen.link/images/buzz', {
         method: 'GET',
         headers: {
-          Accept: 'application/json',
-        },
+          Accept: 'application/json'
+        }
       });
 
       const data = await response.json();
